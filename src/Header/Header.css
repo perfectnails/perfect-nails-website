@@ -1,0 +1,27 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+hr {
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #ffffff;
+}
+
+.sm-top-padding {
+    padding-top: 3vh;
+}
+
+.sm-bottom-padding {
+    padding-bottom: 5vh;
+}
+
+.md-top-padding {
+    padding-top: 5vh;
+}

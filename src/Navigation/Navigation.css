@@ -14,9 +14,9 @@ nav ul li {
   
 nav ul li span {
     display: block;
-    padding: 15px 45px;
+    padding: 15px 130px;
     text-decoration: none;
-    color: rgb(189, 184, 184);
+    color: #ffffff;
     font-weight: 800;
     text-transform: uppercase;
     margin: 0 10px;
@@ -29,16 +29,16 @@ nav ul li span:before {
   
 nav ul li span:hover {
     color: #555;
-    color: #0B7FCB;
     cursor: pointer;
 }
-  
-nav.shift ul li a {
+
+  /* SHIFT */
+  nav.shift ul li span {
     position:relative;
     z-index: 1;
   }
   nav.shift ul li span:hover {
-    color: #91640F;
+    color: #000000;
   }
   nav.shift ul li span:after {
     display: block;
@@ -52,7 +52,7 @@ nav.shift ul li a {
     height: 1px;
     content: '.';
     color: transparent;
-    background: #F1C40F;
+    background: #ffffff;
     visibility: none;
     opacity: 0;
     z-index: -1;
@@ -61,4 +61,4 @@ nav.shift ul li a {
     opacity: 1;
     visibility: visible;
     height: 100%;
-  }  
+  }
