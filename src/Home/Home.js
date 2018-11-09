@@ -47,6 +47,7 @@ class Home extends Component {
             <div>
                 <Navigation changePage={this.changePage}/>
                 {this.generatePage()}
+                <footer className='footer-margin'>© 2018 Perfect Nails All Rights Reserved</footer>
             </div>
         )
     }

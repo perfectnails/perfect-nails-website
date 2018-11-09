@@ -5,9 +5,9 @@ const Prices = (props) => {
     return (
         <div className='container col-12 md-top-padding'>
             <div className='col-12 sm-bottom-padding'>
-                <h1><strong>Services & Prices</strong></h1>
+                <h1 className='wow animated fadeInDown' data-wow-duration='2.5s'><strong>Services & Prices</strong></h1>
             </div>
-            <div className='col-6 left-float'>
+            <div className='col-6 left-float wow animated fadeInLeft' data-wow-duration='2.5s'>
             <table className="table-fill">
                 <thead>
                 <tr>
@@ -70,7 +70,7 @@ const Prices = (props) => {
             <br/>
             </div>
 
-            <div className='col-6 right-float'>
+            <div className='col-6 right-float wow animated fadeInRight' data-wow-duration='2.5s'>
             <table className="table-fill">
                 <thead>
                 <tr>
