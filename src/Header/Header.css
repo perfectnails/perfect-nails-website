@@ -25,3 +25,8 @@ hr {
 .md-top-padding {
     padding-top: 5vh;
 }
+
+#header {
+    height: 85vh;
+    text-align: center;
+}
