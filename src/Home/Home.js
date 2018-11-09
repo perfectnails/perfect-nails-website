@@ -3,7 +3,7 @@ import './Home.css';
 import Navigation from '../Navigation/Navigation';
 import Header from '../Header/Header';
 import Prices from '../Prices/Prices';
-import Contact from '../Contact/Contact';
+import Hours from '../Hours/Hours';
 
 class Home extends Component {
     state = {
@@ -28,9 +28,9 @@ class Home extends Component {
                 return (
                     <Prices />
                 )
-            case 'contact':
+            case 'hours':
                 return (
-                    <Contact />
+                    <Hours />
                 )
             default:
                 return (
@@ -47,7 +47,7 @@ class Home extends Component {
             <div>
                 <Navigation changePage={this.changePage}/>
                 {this.generatePage()}
-                <footer className='footer-margin'>© 2018 Perfect Nails All Rights Reserved</footer>
+                <footer>© 2018 Perfect Nails All Rights Reserved</footer>
             </div>
         )
     }

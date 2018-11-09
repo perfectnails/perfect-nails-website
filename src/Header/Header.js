@@ -4,7 +4,7 @@ import './Header.css';
 const Header = (props) => {
     return (
         <div className='container col-12 md-top-padding' id='header'>
-            <h1 className='wow animated fadeInDown' data-wow-duration='2.5s'><strong>Perfect Nails</strong></h1>
+            <h1 className='perfect-nails wow animated fadeInDown' data-wow-duration='2.5s'><span><strong>Perfect Nails</strong></span></h1>
             <div className='wow animated fadeInDown' data-wow-duration='2.5s'>
              <h5 className='wow animated pulse infinite'>Where your nails deserve perfection.</h5>
             </div>

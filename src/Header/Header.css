@@ -4,10 +4,6 @@
     color: #ffffff;
 }
 
-h1 {
-    font-size: 6rem;
-}
-
 hr {
     max-width: 50px;
     border-width: 3px;
@@ -26,7 +22,12 @@ hr {
     padding-top: 5vh;
 }
 
+.perfect-nails {
+    font-size: 6rem;
+}
+
 #header {
-    height: 85vh;
+    height: 82.5vh;
     text-align: center;
 }
+

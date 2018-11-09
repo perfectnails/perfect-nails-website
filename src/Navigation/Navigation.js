@@ -8,7 +8,7 @@ const Navigation = (props) => {
                 <ul>
                     <li><span onClick={(e) => props.changePage(e, 'home')}>Home</span></li>
                     <li><span onClick={(e) => props.changePage(e, 'prices')}>Prices</span></li>
-                    <li><span onClick={(e) => props.changePage(e, 'contact')}>Contact</span></li>
+                    <li><span onClick={(e) => props.changePage(e, 'hours')}>Hours</span></li>
                 </ul>
             </nav>
         </div>
