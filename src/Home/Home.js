@@ -47,7 +47,7 @@ class Home extends Component {
             <div>
                 <Navigation changePage={this.changePage}/>
                 {this.generatePage()}
-                <footer>© 2018 Perfect Nails All Rights Reserved</footer>
+                <footer>© 2019 Perfect Nails All Rights Reserved</footer>
             </div>
         )
     }
