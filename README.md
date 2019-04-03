@@ -1,3 +1,6 @@
-## Perfect Nails Website
-Complete revamp of the Perfect Nails website using React. <br>
-The current website can be located at: https://perfectnailscc.com/
+## Perfect Nails
+Code for Perfect Nails, a local nail salon in Cathedral City, California. <br>
+The website can be reached at: https://perfectnailscc.com/
+
+## Contributors
+The website was built entirely by Danny Pham (https://github.com/dannyhp1).
