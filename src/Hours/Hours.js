@@ -3,9 +3,11 @@ import './Hours.css';
 
 const Hours = (props) => {
     return (
-        <div className='container col-12 md-top-padding'>
+        <div className='container col-12 md-top-padding' style={{ paddingBottom: '2.5%' }}>
             <h1 className='wow animated fadeInDown' data-wow-duration='2.5s'><strong>Business Hours</strong></h1>
-            <p className='wow animated fadeInDown' data-wow-duration='2.5s'>Perfect Nails is commited to providing you with nothing less than <strong><em>perfection</em></strong>.</p>
+            <p className='wow animated fadeInDown' data-wow-duration='2.5s'>
+                Business hours may change without notice. Please call to confirm.
+            </p>
             <div className='wow animated fadeInUp' data-wow-duration='2.5s'>
                 <table className="table-fill">
                     <thead>
@@ -46,9 +48,6 @@ const Hours = (props) => {
                     </tbody>
                 </table>
             </div>
-            <br/>
-            <p><strong>Disclaimer</strong>: <em>Business hours may change without notice. Please call for more information.</em></p>
-            <br/>
         </div>
     )
 }

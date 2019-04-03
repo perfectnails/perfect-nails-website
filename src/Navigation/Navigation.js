@@ -1,16 +1,60 @@
 import React from 'react';
-import './Navigation.css';
+import { Link } from 'react-router-dom';
+import {
+  Toolbar,
+  AppBar,
+  Button,
+  Grid,
+} from '@material-ui/core';
 
 const Navigation = (props) => {
     return (
-        <div className='col-lg-12 col-md-12 col-sm-12'>
-            <nav className="shift">
-                <ul>
-                    <li><span onClick={(e) => props.changePage(e, 'home')}>Home</span></li>
-                    <li><span onClick={(e) => props.changePage(e, 'prices')}>Prices</span></li>
-                    <li><span onClick={(e) => props.changePage(e, 'hours')}>Hours</span></li>
-                </ul>
-            </nav>
+        <div>
+          <AppBar style={{ background: '#58ACE3', margin: '0px', padding: '0px' }}
+                  justify='space-between'
+                  position="sticky">
+            <Toolbar>
+              <Grid container 
+                    justify='space-between' 
+                    spacing={24}>
+                <Grid item>
+                    <Link to='/'
+                          style={{ color: '#ffffff', textDecoration: 'none' }}>
+                      <Button color='inherit' 
+                              style={{ height: 40, width: 125 }}>
+                        <span style={{ marginLeft: 5, paddingRight: 0, marginRight: 0, textAlign: 'center' }}>Perfect Nails</span>
+                      </Button>
+                    </Link> 
+                </Grid>
+
+                <Grid item>
+                    <Link to='/'
+                          style={{ color: '#ffffff', textDecoration: 'none' }}>
+                      <Button color='inherit' 
+                              style={{ height: 40, width: 125 }}>
+                        <span style={{ marginLeft: 5, paddingRight: 0, marginRight: 0, textAlign: 'center' }}>Home</span>
+                      </Button>
+                    </Link>
+
+                    <Link to='/prices'
+                          style={{ color: '#ffffff', textDecoration: 'none' }}>
+                      <Button color='inherit' 
+                              style={{ height: 40, width: 125 }}>
+                        <span style={{ marginLeft: 5, paddingRight: 0, marginRight: 0, textAlign: 'center' }}>Prices</span>
+                      </Button>
+                    </Link>
+                    
+                    <Link to='/hours'
+                          style={{ color: '#ffffff', textDecoration: 'none' }}>
+                      <Button color='inherit' 
+                              style={{ height: 40, width: 125 }}>
+                        <span style={{ marginLeft: 5, paddingRight: 0, marginRight: 0, textAlign: 'center' }}>Hours</span>
+                      </Button>
+                    </Link>
+                </Grid>
+              </Grid>
+            </Toolbar>
+          </AppBar>
         </div>
     )
 }
