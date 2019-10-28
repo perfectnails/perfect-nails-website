@@ -10,7 +10,7 @@ import {
 const Navigation = (props) => {
     return (
         <div>
-          <AppBar style={{ background: '#58ACE3', margin: '0px', padding: '0px' }}
+          <AppBar style={{ background: '#0D3D56', margin: '0px', padding: '0px' }}
                   justify='space-between'
                   position="sticky">
             <Toolbar>

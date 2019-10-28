@@ -21,9 +21,9 @@ class App extends Component {
               <Route path='/prices' component={Prices} />
               <Route path='/hours' component={Hours} />
 
-              <div style={{ marginBottom: '2.5%' }} className='wow animated fadeInUp' data-wow-duration='2.5s'>
+              {/* <div style={{ marginBottom: '2.5%' }} className='wow animated fadeInUp' data-wow-duration='2.5s'>
                 <footer>© 2019 Perfect Nails All Rights Reserved</footer>
-              </div>
+              </div> */}
 
           </div>
       </Router>

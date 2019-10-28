@@ -3,7 +3,7 @@ import './Home.css';
 
 const Header = (props) => {
     return (
-        <div className='container col-12 md-top-padding' style={{ background: '#3498DB', height: '85vh' }} id='header'>
+        <div className='container col-12 md-top-padding' style={{ background: '#3C6478', height: '85vh', marginTop: '5%' }} id='header'>
             <h1 className='perfect-nails wow animated fadeInDown' data-wow-duration='2.5s'><span><strong>Perfect Nails</strong></span></h1>
             <div className='wow animated fadeInDown' data-wow-duration='2.5s'>
                 <h5 className='wow animated pulse infinite'>Where your nails deserve perfection.</h5>
@@ -20,6 +20,9 @@ const Header = (props) => {
             <p className='sm-bottom-padding wow animated'>
                 Appointments available only Monday - Thursday before 4:00 PM.<br/>
                 Please call the number above to make an appointment.
+                <br/>
+                <br/>
+                <a href="https://perfectnailscc.com/#/hours">Important information regarding the long wait times.</a>
             </p>
 
             <div className='wow animated fadeInUp' data-wow-duration='2.5s'>
