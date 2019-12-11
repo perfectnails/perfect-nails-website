@@ -18,8 +18,7 @@ const Header = (props) => {
             </h5>
 
             <p className='sm-bottom-padding wow animated'>
-                Appointments available only Monday - Thursday before 4:00 PM.<br/>
-                Please call the number above to make an appointment.
+                Please call if you're interested in making an appointment!
                 <br/>
                 <br/>
                 <a href="https://perfectnailscc.com/#/hours">Important information regarding the long wait times.</a>
